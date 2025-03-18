@@ -1,0 +1,5 @@
+models:
+  - name: stg_jaffle__customers
+    description: Customer detail
+  - name: stg_jaffle__orders
+    description: order details for customers
