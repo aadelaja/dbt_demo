@@ -1,6 +1,6 @@
 select
-    order_id,
+    orderid,
     sum(amount) as total_amount
-from {{ ref('stg_stripe_payments') }}
+from {{ ref('stg_stripe__payments') }}
 group by 1
 having not(total_amount >= 0)

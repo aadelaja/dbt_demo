@@ -1,5 +1,5 @@
 version: 2
-data_tests:
+test:
   - name: assert_total_payment_amount_is_positive
     description: >
       Refunds have a negative amount, so the total amount should always be >= 0.
