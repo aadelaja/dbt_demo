@@ -1,0 +1,22 @@
+
+version: 2
+
+sources:
+
+    - name: src_exchange_rates
+      database: kxs-rd-sbx-cs-analytics-01
+      schema: src_exchange_rates
+      tables:
+        - name: raw_monthly_usd_cad_exchange_rate
+
+    - name: src_ownership
+      database: kxs-rd-sbx-cs-analytics-01
+      schema: src_ownership
+      tables:
+        - name: raw_ownership
+
+    - name: src_spend
+      database: kxs-rd-sbx-cs-analytics-01
+      schema: src_spend
+      tables:
+        - name: feb_spend_2024
